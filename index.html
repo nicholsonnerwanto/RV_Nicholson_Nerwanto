@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Internal -->
+    <style>
+        h2{ 
+            color: blueviolet;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header style="display: flex; justify-content: space-evenly; ">
+        <!-- Inline -->
+        <h1 style="color: aquamarine; font-size: 50px; border: 24px; padding: 32px; border: solid black; flex: 2;">Ini Title 1</h1>
+
+        <h1 style="color: aquamarine;
+        border: 24px;
+        font-size: 50px;
+        padding: 32px;
+        border: solid black;
+        box-sizing: border-box;
+        height: 60;">Ini Title 2</h1>
+    </header>
+
+    <article>
+        <button class="btn" onclick="showAlert()">Click Me !</button>
+
+        <header><h2>Ini Sub Title</h2></header>
+        <article>
+            <button>Button Article !</button>
+        </article>
+    </article>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
